@@ -23,29 +23,35 @@ If you want to run it in deatached mode
 docker-compose up -d
 ```
 
-## First time setup
 
-### Connectors
+## Connectors
+
+### Create the connectors
 Execute the following sh to setup the connectors 
 ``` sh
 bash create-postgis-connector.sh
 ```
 
+### Verify the connectors
 To verify the connector run
 ``` sh
 bash verify-postgis-connector.sh
 ```
 
-### Database
-Connect to the local postgres database running in the docker container, create a
-new database and execute the following script.
-[Get the postgres script here](https://github.com/DAXGRID/open-ftth-postgis-service/blob/master/Database%20Scripts/create_route_network_schema.sql)
-
-## Delete the connectors
+### Delete the connectors
 
 ``` sh
 bash delete-postgis-connectors
 ```
+
+## Database
+Connect to the local postgres database running in the docker container, create a
+new database and execute the following script.
+[Get the postgres script here](https://github.com/DAXGRID/open-ftth-postgis-service/blob/master/Database%20Scripts/create_route_network_schema.sql)
+
+## First time setup
+* Create the database with schema
+* Create the connectors
 
 ## Kafka brokers
 This dockerfile has three listeners.
