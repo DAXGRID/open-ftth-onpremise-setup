@@ -31,7 +31,7 @@ bash create-postgis-connector.sh
 
 To verify the connector run
 ``` sh
-bash verify-connector.sh
+bash verify-postgis-connector.sh
 ```
 
 ## Delete the connectors
