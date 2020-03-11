@@ -37,7 +37,7 @@ bash verify-connector.sh
 ## Delete the connectors
 
 ``` sh
-bash delete-connectors
+bash delete-postgis-connectors
 ```
 
 ## Kafka brokers
