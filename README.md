@@ -36,7 +36,9 @@ To verify the connector run
 bash verify-postgis-connector.sh
 ```
 
-### Database schema
+### Database
+Connect to the local postgres database running in the docker container, create a
+new database and execute the following script.
 [Get the postgres script here](https://github.com/DAXGRID/open-ftth-postgis-service/blob/master/Database%20Scripts/create_route_network_schema.sql)
 
 ## Delete the connectors
