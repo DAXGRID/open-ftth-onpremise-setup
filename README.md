@@ -26,7 +26,7 @@ docker-compose up -d
 ## First time setup
 Execute the following sh to setup the connectors 
 ``` sh
-bash create-connector.sh
+bash create-postgis-connector.sh
 ```
 
 To verify the connector run
