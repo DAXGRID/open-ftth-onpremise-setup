@@ -40,3 +40,8 @@ bash verify-connector.sh
 bash delete-connectors
 ```
 
+## Kafka brokers
+This dockerfile has three listeners.
+BOB for internal traffic on the Docker network
+FRED for traffic from the Docker-host machine (`localhost`)
+ALICE for traffic from outside, reaching the Docker host on a DNS name or IP.
