@@ -11,10 +11,10 @@ curl -X POST -H "Accept:application/json" -H "Content-Type:application/json" loc
  "database.port": "5432",
  "database.user": "postgres",
  "database.password": "postgres",
- "database.dbname" : "FTTH_TEST",
+ "database.dbname" : "OPEN_FTTH",
  "database.server.name": "dbserver1",
- "database.whitelist": "FTTH_TEST",
+ "database.whitelist": "OPEN_FTTH",
  "database.history.kafka.bootstrap.servers": "kafka:29092",
- "database.history.kafka.topic": "schema-changes.FTTH_TEST"
+ "database.history.kafka.topic": "schema-changes.OPEN_FTTH"
  }
 }'
