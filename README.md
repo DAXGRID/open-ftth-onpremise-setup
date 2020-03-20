@@ -50,9 +50,11 @@ new database and execute the following script.
 [Get the postgres script here](https://github.com/DAXGRID/open-ftth-postgis-service/blob/master/Database%20Scripts/create_route_network_schema.sql)
 
 ## First time setup
-* Run docker-compose command
-* Create the database with schema
-* Create the connectors
+* Update the docker-compose.yml file with your ip or dns in kafka0 under the
+  'KAFKA_ADVERTISED_LISTENERS' tag.
+* Run docker-compose command.
+* Create the database with schema.
+* Create the connectors.
 
 ## Kafka brokers
 This dockerfile has three listeners.
