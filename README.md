@@ -1,6 +1,9 @@
 # OPEN-FTTH on premise setup
 On-premise/local docker setup for OPEN-FTTH.
 
+## NOTE
+[Deprecated loook here instead](https://github.com/DAXGRID/open-ftth-kubernetes)
+
 ## The setup contains the following
 * Apache Zookeeper 
 * Apache Kafka
